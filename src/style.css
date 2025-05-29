@@ -1,0 +1,58 @@
+html{
+    background-color: rgba(173, 197, 53, 0.411);
+}
+
+section{
+    margin: 0.5%;
+    border: groove 3px goldenrod;
+    background-color: rgba(156, 15, 15, 0.792);
+    
+}
+
+#header{
+    width: 98%;
+    height: 120px;
+    text-align: center;
+    color: azure;
+}
+
+#infobox{
+    width: 98%;
+    min-height: 200px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-container{
+    min-height: 100px;
+    width: auto;
+}
+
+#image{
+    height: 400px;
+    width: auto;
+    border: double 2px violet;
+}
+
+#map{
+    width: 98%;
+    height: 700px;
+}
+
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    z-index: 1000;
+    min-width: 150px;
+  }
+  
+.ol-popup:empty {
+display: none;
+}

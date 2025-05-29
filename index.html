@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/letter-q.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Places</title>
+  </head>
+  <body>
+    <section id="header">
+      <h2>Places to Visit in Quito, Ecuador</h2>
+      <p><strong>Info: </strong>Click on an area to see if has a nice place to visit. <br> 
+        You can see an image and a little description of the place in the selected area
+      </p>
+    </section>
+
+    <section id="infobox">
+      <p><strong>Area/Place: </strong> <p id="area"></p></p>
+      <p id="area_name"></p>
+      <div id="image-container">
+        <img id="image" src="" alt="">
+      </div>
+      <br>
+      <p><strong>Description: </strong></p>
+      <p id="description-container"></p>
+
+    </section>
+
+    <div id="popup">
+      <div id="popup-content" class="ol-popup"></div>
+
+    </div>
+
+    <section id="map"></section>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
